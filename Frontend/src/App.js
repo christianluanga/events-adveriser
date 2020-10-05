@@ -8,7 +8,6 @@ import MenuBar from "./components/core/MenuBar"
 function App() {
   return (
     <BrowserRouter>
-      <Test />
       <MenuBar />
       <Container className="App" maxWidth="lg">
         <Router />
